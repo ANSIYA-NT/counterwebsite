@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Counter</title>
+    <!-- cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-blue-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+        <h1 class="text-2xl font-bold mb-4"> COUNTER</h1>
+        <div id="counterDisplay" class="text-5xl font-bold mb-4 text-yellow-500">0</div>
+        <div class="flex justify-center space-x-4">
+            <button id="decrementBtn" class="bg-red-500 text-white px-4 py-2 rounded">Decrement</button>
+            <button id="resetBtn" class="bg-blue-500 text-white px-4 py-2 rounded">Reset</button>
+            <button id="incrementBtn" class="bg-green-500 text-white px-4 py-2 rounded">Increment</button>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>

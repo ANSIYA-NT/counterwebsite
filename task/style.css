@@ -1,0 +1,8 @@
+/* Optional additional styles */
+body {
+    background-color: #f9fafb;
+}
+
+button:hover {
+    opacity: 0.9;
+}
